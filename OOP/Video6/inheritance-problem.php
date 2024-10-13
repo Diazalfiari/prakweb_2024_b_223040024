@@ -11,7 +11,7 @@ class Produk {
 
 
 //__constuct = metode khusus yg akan dijalankan secara otomatis setiap kita membuat instan dari sebuah class
-public function __construct( $judul = "judul", $penulis = "penulis", $penerbit = "penerbit", $harga = 0, $jmlHalaman = 0, $waktuMain = 0, $tipe ) {
+public function __construct( $judul = "judul", $penulis = "penulis", $penerbit = "penerbit", $harga = 0, $jmlHalaman = 0, $waktuMain = 0, $tipe = 0 ) {
     $this->judul = $judul;
     $this->penulis = $penulis;
     $this->penerbit = $penerbit;
